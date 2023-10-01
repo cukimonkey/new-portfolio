@@ -1,0 +1,109 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: #333; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4; 
+    color: #333; 
+    
+    padding: 10px 30px;
+}
+
+.main h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 1rem; 
+}
+ 
+.navelements .nav-items {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 40px;
+    min-width: 350px;
+}
+
+.nav-item {
+    font-size: 1.2rem; 
+    margin-left: 20px;
+}
+
+.nav-item a {
+    color: #333; 
+    transition: color 0.3s ease; 
+}
+
+
+.nav-item a:hover {
+    color: #007bff; 
+}
+
+/*Main section styling */
+h2 {
+    font-size: 1.2rem;
+}
+
+#about-me {
+    justify-content: center;
+    max-width: 1200px;
+}
+.about-me-container {
+    display: flex;
+    align-items: stretch;
+    
+
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+    padding: 20px; 
+    justify-content: center; 
+    margin-left: auto;
+    min-width: 500px
+  }
+  
+  .right-side {
+    flex-basis: 35%; /* Set the initial width of the right side to 35% */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-right: 0;
+  }
+  
+  #portfolio-img {
+    width: 100%; 
+    max-width: 500px;
+    min-width: 300px;
+    object-fit: cover; 
+  }
+  
+  .subtitle {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap:80px;
+    margin-top: 20px;
+  }
+
+  .left-side h3 {
+    display: flex;
+    justify-content: center; 
+    padding: 0 0 10px 0;
+  }
+
+  .left-side h1 {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+    font-size: 40px;
+  }
